@@ -1,4 +1,4 @@
-name: CICD Test
+name: Amazon CodeGuru Reviewer Scanner
 ##
 on:
   workflow_dispatch:
@@ -38,7 +38,6 @@ jobs:
         if: ${{ always() }}
         with:          
           s3_bucket: codeguru-reviewer-fe4d9737-bc03-465c-a9ab-0f50023d4935
-
 
       - name: Upload review result
         if: ${{ github.event_name != 'push' }}
