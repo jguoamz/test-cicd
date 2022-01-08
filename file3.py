@@ -1,8 +1,8 @@
 def foo(x):
-    y = x.y
-    z = "abc"
-    d = 100
-    t = [0, 1, 2]
+    y = x.k
+    z = "abcd"
+    d = 101
+    t = [0, 1, 2, 3]
     print(y)
     print(z)
     print(d)
@@ -17,3 +17,4 @@ def foo(x):
     """
     
     return y, z, d, t
+    # Should flag line above.
