@@ -1,10 +1,9 @@
 def foo(x) -> Tuple:
-  var1 = "foo"
-  var2 = "foo"
-  var3 = "foo"
-  var4 = "foo"
-  var5 = "foo"
-
+  var1 = "bar"
+  var2 = "bar"
+  var3 = "bar"
+  var4 = "bar"
+  var5 = "bar"
   print("hello")
   print("hello")
   print("hello")
