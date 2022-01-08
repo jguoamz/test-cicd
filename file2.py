@@ -1,5 +1,5 @@
 def foo(x):
-  y = x.f
+  y = x.k
   if y == None:
     return 1
   else:
