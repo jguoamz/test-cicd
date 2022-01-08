@@ -1,5 +1,5 @@
 def foo(x):
-  y = x.f
+  y = x.k
   print("hello")
   print("dummy statement")
   """
