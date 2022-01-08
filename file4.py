@@ -4,9 +4,7 @@ def foo(x) -> Tuple:
   var3 = "foo"
   var4 = "foo"
   var5 = "foo"
-  if x is None:
-    var1 = "bar"
-    var2 = "bar"
+
   print("hello")
   print("hello")
   print("hello")
