@@ -1,4 +1,7 @@
-def foo(a_list):
+def foo(a_list: list):
+  """
+  some comments foo bar
+  """
   a_list.sort(key=lambda x: x.idx)
   current_idx = None
   current_list = []
